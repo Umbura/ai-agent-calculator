@@ -1,0 +1,33 @@
+[project]
+name = "ai-agent-calculator"
+version = "0.1.0"
+description = "AI Assistant with Calculator and Web Search capabilities"
+authors = [
+    {name = "Iago Aragao", email = "iago.aragao@ufpi.edu.br"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "langchain (>=0.1.0,<1.0.0)",
+    "langchain-groq (>=0.1.0,<1.0.0)",
+    "langchain-community (>=0.0.1,<1.0.0)",
+    "langchain-tavily (>=0.2.0,<0.3.0)",
+    "streamlit (>=1.30.0,<2.0.0)",
+    "numexpr (>=2.8.0,<3.0.0)",
+    "python-dotenv (>=1.0.0,<2.0.0)",
+    "rich (>=13.0.0,<15.0.0)",
+    "pydantic (>=2.0.0,<3.0.0)",
+]
+
+[tool.poetry]
+package-mode = false 
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=8.0.0,<10.0.0)",
+    "pytest-mock (>=3.10.0,<4.0.0)"
+]
