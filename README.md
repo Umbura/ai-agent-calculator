@@ -1,4 +1,3 @@
-```markdown
 # 🧠 AI Agent Calculator
 
 > **Technical Challenge:** AI Engineer – Full-Stack
@@ -131,4 +130,3 @@ poetry run pytest -v
 3.  **"Action: None" Loop:**
     *   *Issue:* The model would occasionally get stuck trying to call "None" as a tool for general chat.
     *   *Solution:* Implemented explicit **Prompt Engineering** rules instructing the model to bypass the "Action" step for general greetings, validated by the `test_agent_prompt_engineering` unit test.
-```
