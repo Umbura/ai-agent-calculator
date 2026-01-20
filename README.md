@@ -2,7 +2,7 @@
 
 A production-ready **AI Assistant** capable of intelligently routing user queries between **Mathematical Reasoning**, **Real-Time Web Search**, and **General Knowledge**. Built with a focus on security, observability, and modern "Full-Stack" AI architecture.
 
-<img src="https://i.imgur.com/FKgSYYa.png" alt="PaDiM Demo" width="100%" height="50%">
+<img src="https://i.imgur.com/FKgSYYa.png" alt="ai-agent-calculator" height="50%" width="100%">
 
 ---
 
