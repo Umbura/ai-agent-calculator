@@ -1,10 +1,10 @@
-# 🧠 AI Agent Calculator
+# AI Agent Calculator
 
 A production-ready **AI Assistant** capable of intelligently routing user queries between **Mathematical Reasoning**, **Real-Time Web Search**, and **General Knowledge**. Built with a focus on security, observability, and modern "Full-Stack" AI architecture.
 
 ---
 
-## 🏗 Architecture & Design Decisions
+## Architecture & Design Decisions
 
 This project implements the **ReAct (Reasoning + Acting)** pattern. Instead of relying on opaque function calling, the agent explicitly reasons about which tool to use, making the logic transparent and auditable.
 
@@ -18,7 +18,7 @@ This project implements the **ReAct (Reasoning + Acting)** pattern. Instead of r
 *   **Interface:** [Streamlit](https://streamlit.io/) for a chat-based Web UI.
 *   **Dependency Management:** [Poetry](https://python-poetry.org/) for deterministic builds.
 
-### 🧠 Logic Flow (The Router)
+### Logic Flow (The Router)
 1.  **Input:** User sends a prompt (e.g., *"What is the USD to BRL exchange rate?"*).
 2.  **Reasoning:** The Agent analyzes intent based on strict System Prompt rules.
 3.  **Routing:**
@@ -30,7 +30,7 @@ This project implements the **ReAct (Reasoning + Acting)** pattern. Instead of r
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ai-agent-calculator/
@@ -49,7 +49,7 @@ ai-agent-calculator/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 *   Python 3.10+ (Tested on **Python 3.13**).
@@ -94,7 +94,7 @@ poetry run python -m src.main
 
 ---
 
-## ✅ Quality Assurance
+## Quality Assurance
 
 The project includes a robust test suite using `pytest`.
 
@@ -112,7 +112,7 @@ poetry run pytest -v
 
 ---
 
-## 💡 Learnings & Evolution
+## Learnings & Evolution
 
 ### Challenges & Solutions
 
